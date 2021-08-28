@@ -1,0 +1,123 @@
+<?php
+# Database Configuration
+define( 'DB_NAME', '' );
+define( 'DB_USER', '' );
+define( 'DB_PASSWORD', '' );
+define( 'DB_HOST', '' );
+define( 'DB_HOST_SLAVE', '127.0.0.1' );
+define('DB_CHARSET', 'utf8');
+define('DB_COLLATE', 'utf8_unicode_ci');
+$table_prefix = 'wp_';
+
+# Security Salts, Keys, Etc
+define('AUTH_KEY',         'y-`kYG+ 1%P@C|%F<~~2R/^??-8^MKnR~E7rtDh,Z7k9EH[Md5bH sjY+XOmH.!7');
+define('SECURE_AUTH_KEY',  'z2K#2k$(waY%gJFyl6N*g(;x/-0cX2-~2rj}n%&ESkf)39(@P%h5Y{c4>}O/zHFO');
+define('LOGGED_IN_KEY',    'SlgI@G1p/!04u|)A[JCBqmNAfu$+/I=,@O-?e]_w2ZB,*bSanmBcx$a}mnlHrJ?i');
+define('NONCE_KEY',        '.pK.9Ocz5-v-YR;9z/+iW#]:XCA26xDG)0]H%GDv+yGI[-&!41SAr!sb+ xgHL!(');
+define('AUTH_SALT',        'LKG3$K]_-d/Jo)tf`VU8M3%1;ftwC#Jn>rR-z[ir~?QJo! zcau-N?)7c>S*NWfG');
+define('SECURE_AUTH_SALT', '~XJ2!W#tzxCgW-}Krnn)dE|PTK)%X6}evu_n$422$4GBO&i++pGq^7#<eeC>Lb7,');
+define('LOGGED_IN_SALT',   '* 5Le8q(U2.gPb_+5pJrztz_r,LK<e2y8>Uu*EG0/t4fR-X+mQ$>r-/[i&q?oSG_');
+define('NONCE_SALT',       'V/+E$-R`GOk@,<D+y975HKOgT)?UD s]IQDY[Y{dBp7imF5Ht^v&CJxB+uPHB|%^');
+
+
+# Localized Language Stuff
+
+define( 'WP_CACHE', TRUE );
+
+define( 'WP_DEBUG', false );		
+
+define( 'WP_AUTO_UPDATE_CORE', false );
+
+define( 'PWP_NAME', 'highnpplicance' );
+
+define( 'FS_METHOD', 'direct' );
+
+define( 'FS_CHMOD_DIR', 0775 );
+
+define( 'FS_CHMOD_FILE', 0664 );
+
+define( 'ALLOW_UNFILTERED_UPLOADS', true );
+
+umask(0002);
+
+define( 'WPE_APIKEY', '58532167d976d4fa0c412636d78779280909ae72' );
+
+define( 'WPE_CLUSTER_ID', '130962' );
+
+define( 'WPE_CLUSTER_TYPE', 'pod' );
+
+define( 'WPE_ISP', true );
+
+define( 'WPE_BPOD', false );
+
+define( 'WPE_RO_FILESYSTEM', false );
+
+define( 'WPE_LARGEFS_BUCKET', 'largefs.wpengine' );
+
+define( 'WPE_SFTP_PORT', 2222 );
+
+define( 'WPE_LBMASTER_IP', '' );
+
+define( 'WPE_CDN_DISABLE_ALLOWED', true );
+
+define( 'DISALLOW_FILE_MODS', FALSE );
+
+define( 'DISALLOW_FILE_EDIT', FALSE );
+
+define( 'DISABLE_WP_CRON', false );
+
+define( 'WPE_FORCE_SSL_LOGIN', false );
+
+define( 'FORCE_SSL_LOGIN', false );
+
+/*SSLSTART*/ if ( isset($_SERVER['HTTP_X_WPE_SSL']) && $_SERVER['HTTP_X_WPE_SSL'] ) $_SERVER['HTTPS'] = 'on'; /*SSLEND*/
+
+define( 'WPE_EXTERNAL_URL', false );
+
+define( 'WP_POST_REVISIONS', FALSE );
+
+define( 'WPE_WHITELABEL', 'wpengine' );
+
+define( 'WP_TURN_OFF_ADMIN_BAR', false );
+
+define( 'WPE_BETA_TESTER', false );
+
+$wpe_cdn_uris=array ( );
+
+$wpe_no_cdn_uris=array ( );
+
+$wpe_content_regexs=array ( );
+
+$wpe_all_domains=array ( 0 => 'highnpplicance.wpengine.com', );
+
+$wpe_varnish_servers=array ( 0 => 'pod-130962', );
+
+$wpe_special_ips=array ( 0 => '35.226.19.11', );
+
+$wpe_netdna_domains=array ( );
+
+$wpe_netdna_domains_secure=array ( );
+
+$wpe_netdna_push_domains=array ( );
+
+$wpe_domain_mappings=array ( );
+
+$memcached_servers=array ( 'default' =>  array ( 0 => 'unix:///tmp/memcached.sock', ), );
+
+define( 'WPE_SFTP_ENDPOINT', '' );
+define('WPLANG','');
+
+# WP Engine ID
+
+
+# WP Engine Settings
+
+
+
+
+
+
+# That's It. Pencils down
+if ( !defined('ABSPATH') )
+	define('ABSPATH', __DIR__ . '/');
+require_once(ABSPATH . 'wp-settings.php');

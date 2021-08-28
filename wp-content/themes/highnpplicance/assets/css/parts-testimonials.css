@@ -1,0 +1,159 @@
+/** General appointment btn */
+/** theme border customization */
+/** header quick links buttons variable */
+/** Ninja Form with brand primary styles */
+/** allocated with parent class .ninja-field--primary */
+/** Ninja Form with brand secondary styles */
+/** allocated with parent class .ninja-field--secondary */
+/** body data */
+/** PT wired app Page */
+/** Testimonials page quote color */
+/** sidebar variables */
+/** social buttons in footer */
+/** social buttons in Location details page */
+.text-brand-primary-light, .hover-text-brand-primary-light:hover {
+  color: #93bee5;
+}
+.text-brand-primary, .hover-text-brand-primary:hover {
+  color: #0c1f3e;
+}
+.text-brand-primary-dark, .hover-text-brand-primary-dark:hover {
+  color: #3e5d97;
+}
+.text-brand-secondary-light, .hover-text-brand-secondary-light:hover {
+  color: #93bee5;
+}
+.text-brand-secondary, .hover-text-brand-secondary:hover {
+  color: #0c1f3e;
+}
+.text-brand-secondary-dark, .hover-text-brand-secondary-dark:hover {
+  color: #3e5d97;
+}
+.text-gray, .hover-text-gray:hover {
+  color: #808080;
+}
+.text-white, .hover-text-white:hover {
+  color: #fff;
+}
+.text-black, .hover-text-black:hover {
+  color: #000;
+}
+.text-error, .hover-text-error:hover {
+  color: #f00;
+}
+.text-warning, .hover-text-warning:hover {
+  color: #ffae42;
+}
+.text-success, .hover-text-success:hover {
+  color: #008000;
+}
+.bg-brand-primary-light, .hover-bg-brand-primary-light:hover {
+  background-color: #93bee5;
+}
+.bg-brand-primary, .hover-bg-brand-primary:hover {
+  background-color: #0c1f3e;
+}
+.bg-brand-primary-dark, .hover-bg-brand-primary-dark:hover {
+  background-color: #3e5d97;
+}
+.bg-brand-secondary-light, .hover-bg-brand-secondary-light:hover {
+  background-color: #93bee5;
+}
+.bg-brand-secondary, .hover-bg-brand-secondary:hover {
+  background-color: #0c1f3e;
+}
+.bg-brand-secondary-dark, .hover-bg-brand-secondary-dark:hover {
+  background-color: #3e5d97;
+}
+.bg-gray, .hover-bg-gray:hover {
+  background-color: #808080;
+}
+.bg-white, .hover-bg-white:hover {
+  background-color: #fff;
+}
+.bg-black, .hover-bg-black:hover {
+  background-color: #000;
+}
+.bg-error, .hover-bg-error:hover {
+  background-color: #f00;
+}
+.bg-warning, .hover-bg-warning:hover {
+  background-color: #ffae42;
+}
+.bg-success, .hover-bg-success:hover {
+  background-color: #008000;
+}
+.testimonials-section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+.testimonials-section:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #93bee5;
+  opacity: 0.7;
+}
+.testimonials-section .testimonials-slider .description {
+  border-bottom: 5px solid #0c1f3e;
+  padding: 50px 30px 80px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.testimonials-section .testimonials-slider .description p {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.4;
+}
+.testimonials-section .testimonials-slider .description span, .testimonials-section .testimonials-slider .description p {
+  display: inline;
+}
+.testimonials-section .testimonials-slider .start-icon img {
+  margin: auto;
+}
+.testimonials-section .testimonial-button .review-icon img {
+  width: 190px;
+}
+.testimonials-section .slick-arrow {
+  font-size: 0px;
+  background: transparent;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  border-radius: 0;
+  outline: none;
+  width: 35px;
+  height: 35px;
+}
+.testimonials-section .slick-arrow.slick-prev {
+  transform: rotate(-135deg);
+  left: -100px;
+}
+@media (max-width: 1366px) {
+  .testimonials-section .slick-arrow.slick-prev {
+    left: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .testimonials-section .slick-arrow.slick-prev {
+    left: 10px;
+  }
+}
+.testimonials-section .slick-arrow.slick-next {
+  transform: rotate(45deg);
+  right: -100px;
+}
+@media (max-width: 1366px) {
+  .testimonials-section .slick-arrow.slick-next {
+    right: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .testimonials-section .slick-arrow.slick-next {
+    right: 10px;
+  }
+}
+/*# sourceMappingURL=parts-testimonials.css.map */

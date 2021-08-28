@@ -1,0 +1,83 @@
+@import
+	"abstracts/variables",
+	"abstracts/mixins";
+
+.testimonials-section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	padding: 50px 0;
+
+  &:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: color('brand-primary-light');
+    opacity: 0.7;
+  }
+
+  .testimonials-slider {
+    .description {
+      border-bottom: 5px solid color('brand-primary');
+      padding: 50px 30px 80px;
+			background-color: rgba(255,255,255,0.9);
+
+			p {
+				font-size: 15px;
+				font-style: italic;
+				line-height: 1.4;
+			}
+			span, p {
+				display: inline;
+			}
+    }
+    .start-icon {
+      img {
+        margin: auto;
+      }
+    }
+  }
+
+	.testimonial-button {
+		.review-icon {
+			img {
+				width: 190px;
+			}
+		}
+	}
+
+	.slick-arrow {
+    font-size: 0px;
+    background: transparent;
+    border-top: 3px solid color('white');
+    border-right: 3px solid color('white');
+    border-radius: 0;
+    outline: none;
+    width: 35px;
+    height: 35px;
+
+		&.slick-prev {
+			transform: rotate(-135deg);
+			left: -100px;
+			@include breakpoint(1366px) {
+        left: 20px;
+      }
+      @include breakpoint(767px) {
+        left: 10px;
+      }
+		}
+		&.slick-next {
+			transform: rotate(45deg);
+			right: -100px;
+			@include breakpoint(1366px) {
+        right: 20px;
+      }
+      @include breakpoint(767px) {
+        right: 10px;
+      }
+		}
+	}
+}

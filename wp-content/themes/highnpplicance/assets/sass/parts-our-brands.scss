@@ -1,0 +1,80 @@
+@import
+	"abstracts/variables",
+	"abstracts/mixins";
+
+.our-brands-section {
+	padding: 55px 0;
+
+	@include breakpoint(767px) {
+		padding: 40px 0;
+	}
+  ul {
+    li {
+        .logo {
+          padding: 10px;
+					padding-top: 35%;
+        }
+        img {
+          margin: 0 auto;
+          width: 200px;
+					max-height: 300px;
+          display: block;
+          opacity: .8;
+          -webkit-object-fit: contain;
+          object-fit: contain;
+          -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+          -webkit-transition: .15s -webkit-filter linear;
+          transition: .15s filter linear,.15s -webkit-filter linear,.3s opacity;
+        }
+
+        &:hover {
+          img {
+            -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+            opacity: 1;
+          }
+        }
+    }
+  }
+
+	.slick-arrow {
+		font-size: 0px;
+		background: transparent;
+		border-top: 3px solid #ddd;
+		border-right: 3px solid #ddd;
+		border-radius: 0;
+		outline: none;
+		width: 40px;
+		height: 40px;
+    @include breakpoint(1366px) {
+      width: 30px;
+  		height: 30px;
+    }
+    @include breakpoint(767px) {
+			width: 25px;
+			height: 25px;
+		}
+
+		&.slick-prev {
+			transform: rotate(-135deg);
+			left: -100px;
+      @include breakpoint(1366px) {
+        left: 20px;
+      }
+      @include breakpoint(767px) {
+        left: 10px;
+      }
+		}
+		&.slick-next {
+			transform: rotate(45deg);
+	    right: -100px;
+      @include breakpoint(1366px) {
+        right: 20px;
+      }
+      @include breakpoint(767px) {
+        right: 10px;
+      }
+		}
+	}
+}

@@ -1,0 +1,166 @@
+/** General appointment btn */
+/** theme border customization */
+/** header quick links buttons variable */
+/** Ninja Form with brand primary styles */
+/** allocated with parent class .ninja-field--primary */
+/** Ninja Form with brand secondary styles */
+/** allocated with parent class .ninja-field--secondary */
+/** body data */
+/** PT wired app Page */
+/** Testimonials page quote color */
+/** sidebar variables */
+/** social buttons in footer */
+/** social buttons in Location details page */
+.text-brand-primary-light, .hover-text-brand-primary-light:hover {
+  color: #93bee5;
+}
+.text-brand-primary, .hover-text-brand-primary:hover {
+  color: #0c1f3e;
+}
+.text-brand-primary-dark, .hover-text-brand-primary-dark:hover {
+  color: #3e5d97;
+}
+.text-brand-secondary-light, .hover-text-brand-secondary-light:hover {
+  color: #93bee5;
+}
+.text-brand-secondary, .hover-text-brand-secondary:hover {
+  color: #0c1f3e;
+}
+.text-brand-secondary-dark, .hover-text-brand-secondary-dark:hover {
+  color: #3e5d97;
+}
+.text-gray, .hover-text-gray:hover {
+  color: #808080;
+}
+.text-white, .hover-text-white:hover {
+  color: #fff;
+}
+.text-black, .hover-text-black:hover {
+  color: #000;
+}
+.text-error, .hover-text-error:hover {
+  color: #f00;
+}
+.text-warning, .hover-text-warning:hover {
+  color: #ffae42;
+}
+.text-success, .hover-text-success:hover {
+  color: #008000;
+}
+.bg-brand-primary-light, .hover-bg-brand-primary-light:hover {
+  background-color: #93bee5;
+}
+.bg-brand-primary, .hover-bg-brand-primary:hover {
+  background-color: #0c1f3e;
+}
+.bg-brand-primary-dark, .hover-bg-brand-primary-dark:hover {
+  background-color: #3e5d97;
+}
+.bg-brand-secondary-light, .hover-bg-brand-secondary-light:hover {
+  background-color: #93bee5;
+}
+.bg-brand-secondary, .hover-bg-brand-secondary:hover {
+  background-color: #0c1f3e;
+}
+.bg-brand-secondary-dark, .hover-bg-brand-secondary-dark:hover {
+  background-color: #3e5d97;
+}
+.bg-gray, .hover-bg-gray:hover {
+  background-color: #808080;
+}
+.bg-white, .hover-bg-white:hover {
+  background-color: #fff;
+}
+.bg-black, .hover-bg-black:hover {
+  background-color: #000;
+}
+.bg-error, .hover-bg-error:hover {
+  background-color: #f00;
+}
+.bg-warning, .hover-bg-warning:hover {
+  background-color: #ffae42;
+}
+.bg-success, .hover-bg-success:hover {
+  background-color: #008000;
+}
+.our-brands-section {
+  padding: 55px 0;
+}
+@media (max-width: 767px) {
+  .our-brands-section {
+    padding: 40px 0;
+  }
+}
+.our-brands-section ul li .logo {
+  padding: 10px;
+  padding-top: 35%;
+}
+.our-brands-section ul li img {
+  margin: 0 auto;
+  width: 200px;
+  max-height: 300px;
+  display: block;
+  opacity: 0.8;
+  -webkit-object-fit: contain;
+  object-fit: contain;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  -webkit-transition: 0.15s -webkit-filter linear;
+  transition: 0.15s filter linear, 0.15s -webkit-filter linear, 0.3s opacity;
+}
+.our-brands-section ul li:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  opacity: 1;
+}
+.our-brands-section .slick-arrow {
+  font-size: 0px;
+  background: transparent;
+  border-top: 3px solid #ddd;
+  border-right: 3px solid #ddd;
+  border-radius: 0;
+  outline: none;
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 1366px) {
+  .our-brands-section .slick-arrow {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .our-brands-section .slick-arrow {
+    width: 25px;
+    height: 25px;
+  }
+}
+.our-brands-section .slick-arrow.slick-prev {
+  transform: rotate(-135deg);
+  left: -100px;
+}
+@media (max-width: 1366px) {
+  .our-brands-section .slick-arrow.slick-prev {
+    left: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .our-brands-section .slick-arrow.slick-prev {
+    left: 10px;
+  }
+}
+.our-brands-section .slick-arrow.slick-next {
+  transform: rotate(45deg);
+  right: -100px;
+}
+@media (max-width: 1366px) {
+  .our-brands-section .slick-arrow.slick-next {
+    right: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .our-brands-section .slick-arrow.slick-next {
+    right: 10px;
+  }
+}
+/*# sourceMappingURL=parts-our-brands.css.map */

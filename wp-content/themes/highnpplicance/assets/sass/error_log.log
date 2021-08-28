@@ -1,0 +1,90 @@
+11/29/19 9:16:37: inner-styles.scss - Missing argument mode: line: 234
+11/29/19 9:16:37: style.scss - Missing argument mode: line: 234
+11/29/19 9:16:38: inner-styles.scss - Missing argument mode: line: 234
+11/29/19 9:16:38: style.scss - Missing argument mode: line: 234
+11/29/19 9:16:50: inner-styles.scss - Missing argument mode: line: 234
+11/29/19 9:16:50: style.scss - Missing argument mode: line: 234
+11/29/19 9:16:51: inner-styles.scss - Missing argument mode: line: 234
+11/29/19 9:16:51: style.scss - Missing argument mode: line: 234
+11/29/19 9:17:00: inner-styles.scss - Missing argument mode: line: 234
+11/29/19 9:17:00: style.scss - Missing argument mode: line: 234
+11/29/19 9:17:01: inner-styles.scss - Missing argument mode: line: 234
+11/29/19 9:17:01: style.scss - Missing argument mode: line: 234
+11/29/19 9:17:27: inner-styles.scss - Missing argument mode: line: 234
+11/29/19 9:17:27: style.scss - Missing argument mode: line: 234
+11/29/19 9:17:28: inner-styles.scss - Missing argument mode: line: 234
+11/29/19 9:17:28: style.scss - Missing argument mode: line: 234
+11/29/19 9:17:50: inner-styles.scss - Missing argument mode: line: 234
+11/29/19 9:17:50: style.scss - Missing argument mode: line: 234
+11/29/19 9:17:51: inner-styles.scss - Missing argument mode: line: 234
+11/29/19 9:17:51: style.scss - Missing argument mode: line: 234
+11/29/19 9:17:54: inner-styles.scss - Missing argument mode: line: 234
+11/29/19 9:17:54: style.scss - Missing argument mode: line: 234
+11/29/19 9:17:55: inner-styles.scss - Missing argument mode: line: 234
+11/29/19 9:17:55: style.scss - Missing argument mode: line: 234
+12/02/19 10:51:43: inner-styles.scss - ".location-contact" failed to @extend ".text-20". The selector ".text-20" was not found.: line: 846
+12/02/19 11:02:42: inner-styles.scss - ".location-contact" failed to @extend ".text-20". The selector ".text-20" was not found.: line: 846
+12/02/19 11:04:07: inner-styles.scss - ".location-contact" failed to @extend ".text-20". The selector ".text-20" was not found.: line: 846
+12/11/19 12:47:23: bodyparts.scss - Undefined variable $bodyPartsHoverColor: line: 41
+12/11/19 11:32:51: bodyparts.scss - Undefined variable $bodyPartsHoverColor: line: 41
+12/13/19 1:41:25: bodyparts.scss - Undefined variable $bodyPartsHoverColor: line: 41
+12/13/19 5:45:17: bodyparts.scss - Undefined variable $bodyPartsHoverColor: line: 41
+12/15/19 5:45:16: bodyparts.scss - Undefined variable $bodyPartsHoverColor: line: 41
+12/16/19 5:56:40: bodyparts.scss - Undefined variable $bodyPartsHoverColor: line: 41
+12/16/19 11:25:47: bodyparts.scss - Undefined variable $bodyPartsHoverColor: line: 41
+12/17/19 5:45:21: bodyparts.scss - Undefined variable $bodyPartsHoverColor: line: 41
+12/17/19 12:34:23: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:34:23: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:34:23: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:34:23: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:34:23: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:35:28: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:35:28: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:35:28: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:35:28: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:35:28: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:35:40: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:35:40: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:35:40: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:35:40: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:35:40: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:36:00: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:36:00: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:36:00: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:36:00: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:36:00: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:36:46: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:36:46: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:36:46: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:36:46: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:36:46: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:37:57: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:37:57: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:37:57: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:37:57: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:37:57: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:21: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:21: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:21: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:21: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:21: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:22: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:22: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:22: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:22: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:22: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:53: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:53: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:53: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:53: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:53: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:54: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:54: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:54: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:54: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:38:54: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:39:56: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:39:56: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:39:56: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:39:56: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/17/19 12:39:56: /home/s32/html/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
